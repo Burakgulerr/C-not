@@ -1,0 +1,1272 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	
+	
+// = eğer(ort>=50) { "geçti"}    değilse   { "kaldı" }
+//     =atama           ==sorgulamam (eşit mi)
+
+/*	int sayi1,sayi2,toplam;
+	
+	sayi1=30;
+	sayi2=22;
+	toplam=sayi1+sayi2;
+	
+	if(toplam>=50)
+	{
+		printf("Toplam Degeriniz: %d - 50'den buyuk",toplam);
+	}
+	else
+	{
+		printf("Toplam Degeriniz: %d - 50'den kucuk",toplam);
+		
+	}
+	return 0;
+	
+
+}*/
+//********************************************************************************************************************************************
+
+
+
+/*	printf("KTU Bilgi Sistemi");
+	printf("\n\n\n");
+	
+	int s1,s2,ort;
+	
+	printf("Sinav1 degerini girin: ");
+	scanf("%d",&s1);
+	
+	printf("Sinav2 degerini girin: ");
+	scanf("%d",&s2);
+	
+	ort=(s1+s2)/2;
+	
+	printf("Ortalama: %d\n",ort);
+	
+	
+	if(ort>=50)
+	{
+		printf("Dersten gectin gardesim");
+		
+	}
+	else
+	{
+	printf("Malesef kaldin kardes");
+	}
+	return 0;
+}*/
+//********************************************************************************************************************************************
+
+
+
+
+// *****************mod alma işlemi için % kullanacağız. ve için && kullanacağız. veya için || bunu kullanacağız.********************
+
+/*	int sayi;
+	printf("Sayiyi girin: ");
+	scanf("%d",&sayi);
+	
+	if(sayi%3==0 && sayi%5==0)          // (Burda demek istiyo ki eper sayı 3 bölümğnden kalan 0sa ve 5e bölümden kalan 0sa)
+	{
+		printf("Sayi 3 ve 5'e tam bolunur");
+	
+	}
+	else
+	{
+		printf("Sayi 3 ve 5'e tam bolunmez");
+	}
+	return 0;
+}*/
+//********************************************************************************************************************************************
+	
+	
+	
+	
+	
+//		(==eşit midir)    != eşit değil midir    mesela if sayı mod 2!=0 ikiye bölümünden kalan 0 değilse
+
+
+	//KLAVYEDEN GİRİLEN DERECEYE GÖRE SUYUN DURUMUNU YAZDIRAN PROGRAMI KODLAYIN
+	
+/*	printf("*******Suyun Durumu*********\n\n");
+	
+	int su;
+	printf("Suyun sicakligini giriniz: ");
+	scanf("%d",&su);
+	
+	if(su<=0)
+	{
+		printf("Buz halinde");
+	}
+	if(su>=100)
+	{
+		printf("Buhar halinde");
+
+	}
+	if(su>0 && su<100)
+	{
+		printf("Sivi halde");
+		}	
+	
+return 0;
+}*/
+//********************************************************************************************************************************************
+	
+	
+	
+	
+	
+	
+/*	int sevgi;
+	printf("En cok kimi seviyorsun? Mert'i mi Kubra'yi mi?\n");
+	scanf("%d",&sevgi);
+	
+	if(sevgi>=5)
+	{
+		printf("Evet dogru cevap Kubra");
+	}
+
+	else
+	{
+		printf("Yanlis cevap verdin. Dogru cevap Kubra'ydi'");
+	}
+	
+	return 0;
+	
+	
+}*/
+//********************************************************************************************************************************************
+
+
+	
+	
+/*	printf("KTU Bilgi Sistemi\n\n");
+	
+	
+	int s1,s2,s3,proje,ort;
+	printf("1. Sinav notunuzu girin: ");
+	scanf("%d",&s1);
+	
+	printf("2. Sinav notunuzu girin: ");
+	scanf("%d",&s2);
+	
+	printf("3. Sinav notunuzu girin: ");
+	scanf("%d",&s3);
+	
+	printf("Proje notunuzu girin: ");
+	scanf("%d",&proje);
+	
+	ort=(s1+s2+s3+proje)/4;
+	
+	if(ort<50)
+	{
+		printf("Not Ortalamanız: %d -FF",ort);
+	}
+	
+	if(ort>=50 && ort<60) 
+	{
+		printf("Not Ortalamanız: %d - DD",ort);
+	}
+	
+	if(ort>=60 && ort<70)
+	{
+		printf("Not Ortalamanız: %d - CC",ort);
+	}
+	
+	if(ort>=70 && ort<85)
+	{
+		printf("Not Ortalamanız: %d - BB",ort);
+	}
+	
+	if(ort>=85)
+	{
+		printf("Not Ortalamanız: %d - AA",ort);
+	}
+	
+	return 0;
+}*/
+//********************************************************************************************************************************************
+
+
+
+	
+	// **********************for kullanılırken (başlangıç; bitiş; artış miktarı) kullanılır************************************
+	// eğer bir bir artmasını istiyosak i++ kullan.
+	// ama iki iki artmasını istersek i+=2 ya da üç üç artmasını istersek i+=3 kullan
+	
+/*	
+	int i;
+	for(i=1;i<=10;i++)
+	{
+		printf("Merhaba Burak \n");
+		}	
+	
+		return 0;
+}*/
+	
+	/*
+	int a;
+	for(a=0;a<=20;a+=3)
+	{
+		printf("%d\n",a);
+	}
+	*/
+//********************************************************************************************************************************************
+
+
+	
+	
+	// *******mod alma % ile gösterilir***** 5'e bölümünden 0 kalan sayıları yazdır.
+	
+/*	int i;
+	for(i=1;i<=50;i++)
+	{
+		if(i%5==0)
+		{
+			printf("%d\n",i);
+		}
+	}
+	
+			return 0;
+}
+*/
+//********************************************************************************************************************************************
+	
+	
+	
+	
+// 3 basamaklı sayıyı basamaklarına ayıran program 
+
+/*
+		int sayi;
+		sayi=979;
+		int birler,onlar,yuzler;
+		
+		yuzler=sayi/100;
+		printf("%d\n",yuzler);
+		
+		onlar=sayi/100;
+		onlar=onlar-2;
+		printf("%d\n",onlar);
+		
+		birler=sayi%10;
+		printf("%d",birler);
+		
+		return 0;
+	}
+*/	
+//********************************************************************************************************************************************
+	
+	
+	
+	// ****************WHILE********************* mantığı for'a benzer
+	
+	
+/*	int i;
+	i=1;
+	while(i<=5)
+	{
+		printf("Merhaba kanka\n");           //burada bitirip çalıştırırsak sonsuza gider o yüzden bi son eklemeliyiz. örn: i++;
+		i++;
+	}
+	
+	return 0;
+}*/
+//********************************************************************************************************************************************
+
+
+
+
+
+// 1 ile 10 arasındaki sayıları listele.
+
+/*	int i;
+	i=1;
+	while(i<=10)
+	{
+		printf("%d\n",i);
+		i++;
+	}
+		return 0;
+}*/
+//********************************************************************************************************************************************
+
+
+
+
+
+// 1 ile 20 arasındaki çift sayıları ama 14 sayısını listelemeyen c komutu
+
+/*	int i;
+	i=1;
+	while(i<=20)
+	{
+	i++;
+		if(i%2==0 && i!=14)
+		{
+		printf("%d\n",i);
+		
+		}
+		
+	}
+	return 0;
+}
+*/
+//********************************************************************************************************
+
+
+
+// ***************************SWITCH / CASE*************  switch=değişken          case=durum
+// KLAVYEDEN GİRİLEN DEĞERLERE GÖRE AYLARI YAZSIN
+
+
+
+
+/*	int sayi;
+	printf("Lutfen Ay Numarasi Girin: ");
+	scanf("%d",&sayi);
+	
+	switch(sayi)
+	{
+		case 1:printf("Ocak"); break;
+		case 2:printf("Subat"); break;
+		case 3:printf("Mart"); break;
+		case 4:printf("Nisan"); break;
+		case 5:printf("Mayis"); break;
+		case 6:printf("Haziran"); break;
+		case 7:printf("Temmuz"); break;
+		case 8:printf("Agustos"); break;
+		case 9:printf("Eylul"); break;
+		case 10:printf("Ekim"); break;
+		case 11:printf("Kasim"); break;
+		case 12:printf("Aralik"); break;
+	}
+return 0;
+}*/
+
+
+//********************************************************************************************************
+
+/*	char ders;
+	printf("Ders Kodu: ");
+	scanf("%s",&ders);
+	
+	switch(ders)
+	{
+		case 't':printf("Turkce"); break;
+		case 's':printf("Sosyal"); break;
+		case 'm':printf("Matematik"); break;
+		default: printf("Hatali girdiniz"); break;
+		
+	}
+return 0;
+}
+*/
+
+//********************************************************************************************************************************************
+
+
+/*	int sayi1,secim;
+	float pi;
+	
+	sayi1=5;
+	pi=3.14;
+	
+	printf("KTU Islem\n\n");
+	printf("1- Karede alan ve cevre hesabi\n");
+	printf("2- Girilen Sayinin Kupu\n");
+	printf("3- Cemberde alan ve cevre\n");
+	printf("Islemnizi seciniz ");
+	scanf("%d", &secim);
+
+	switch(secim)
+	{
+		case 1: printf("Karenin alani: %d\n",(sayi1*sayi1));
+				printf("Karenin cevresi: %d\n",(sayi1*4)); break;
+		case 2: printf("Sonuc: %d",(sayi1*sayi1*sayi1)); break;
+		case 3: printf("Cemberin alani: %f\n",(sayi1*sayi1*pi)); break;
+				printf("Cemberin cevresi: %f",(2*pi*sayi1));
+	}
+return 0;
+}
+*/	
+
+
+//********************************************************************************************************************************************
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+/* 
+int main() {
+	
+//********DİZİLER******** [] olarak gösterilir. Index 0'dan başlar.
+
+	int tekrakamlar[]={1,3,5,7,9};
+
+	printf("%d",tekrakamlar[1]);         // parantez içini 0 yaparsak=1    1 yaparsak=3      2 yaparsak=5        3 yaparsak=7       4 yaparsak=9
+	
+	return 0;
+}*/
+
+//**********************************************************************************************************************************************
+
+
+/*	int sayilar []={10,20,30,40,50,60,70};
+	
+	int i;
+	
+	for(i=0;i<7;i++)
+	{
+		printf("%d\n",sayilar[i]);  // eğer burda printf("%d\n,i); yazsaydık 0,1,2,3,4,5,6 yazdıracaktı o yüzden [i] böyle yazmak gerek.
+	}
+	return 0;
+}*/
+
+
+//*******************************************************************************************************************************************
+// 3 tane sehir girdiren program
+
+/*	
+char sehir[10];
+	int i;
+	for(i=0;i<3;i++)
+	{
+		printf("Sehri girin: ");
+		scanf("%s",sehir);
+		
+		printf("Girdiginiz il %s\n",sehir);
+		
+	}
+	return 0;
+}
+*/
+
+//*********************************************************************************************************************************************
+//10  20  30  yazdıran
+/*
+	int dizi[100];
+	int i,sayi;
+	
+	printf("Eleman sayisini giriniz ");
+	scanf("%d",&sayi);
+	
+	for(i=0;i<sayi;i++)
+	{
+		printf("Dizinin %d. degerini girin: ",i+1);
+		scanf("%d",&dizi[i]);
+	}
+	printf("\n");
+	
+	for(i=0;i<sayi;i++)
+	{
+		printf("%d  ",dizi[i]);
+	}
+	return 0;
+}
+*/
+
+//*********************************************************************************************************************************************
+
+
+/*
+int i,j;
+   for(i=0;i<=4;i++)
+   {
+       for(j=1;j<=2;j++)
+       {
+           printf("*");
+       }
+       printf("\n");
+   }
+
+
+    return 0;
+}
+*/
+
+//*********************************************************************************************************************************************
+            // yan yana 10 20
+            //			30 40    yazdıran program
+			/*
+
+
+	int dizi[2][2];
+	
+	dizi[0][0]=10;
+	dizi[0][1]=20;
+	dizi[1][0]=30;
+	dizi[1][1]=40;
+	
+	printf("%d\t",dizi[0][0]);
+	printf("%d\n",dizi[0][1]);
+	printf("%d\t",dizi[1][0]);
+	printf("%d",dizi[1][1]);
+	
+	*/
+	
+//*********************************************************************************************************************************************
+
+// matris[2][3]={10,20,30,40,50,60}  bu demek oluyo ki 2 satır 3 sütunluk bi matris. bunu yazdıralım yıldızlı örnek gibi:
+
+/*
+
+	int dizi[2][3]={10,20,30,40,50,60};
+	int i,k;
+	for(i=0;i<2;i++)        //  2 yazdık çünkü 2 satırı temsil ediyo i
+	{
+		for(k=0;k<3;k++)    //  3 yazdık çünkü 3 sütunu temsil ediyo k
+		{
+			
+		printf(" %d",dizi[i][k]);
+		}
+		printf("\n"); 
+         }
+*/	
+	
+	
+//*********************************************************************************************************************************************
+
+ // şimdi iki ayrı matrisi toplayarak 3. bi matrise yazdırsın
+/* 
+ 
+ 	int dizi1[2][2]={10,20,30,40};
+ 	int dizi2[2][2]={2,4,6,8};
+ 	int toplam[2][2];
+ 	
+ 	int i,j,k,l;          // i ve j matrisleri yazdırmak için; k ve l de toplam matrisi yazdırmak için
+ 	
+ 	for(i=0;i<2;i++)
+ 	{
+ 		for(j=0;j<2;j++)
+ 		
+ 		{
+ 			toplam[i][j]=dizi1[i][j]+dizi2[i][j];
+
+		 }
+	 }
+ 	
+ 	for(k=0;k<2;k++)
+ 	{
+ 		for(l=0;l<2;l++)
+ 		
+ 		{
+ 			printf("%d ",toplam[k][l]);
+
+		 }
+		  printf("\n");
+	 }
+
+//*********************************************************************************************************************************************
+
+
+	
+*/	//klavyeden girilen sayinin küpü
+	
+/*
+	int sayi,kupu;
+	
+	printf("Sayiyi girin: ");
+	scanf("%d",&sayi);
+	
+	kupu=sayi*sayi*sayi;	
+	
+	printf("yeni sayimiz: %d",kupu);	
+*/	
+	
+//*********************************************************************************************************************************************
+
+	
+	// BİR BAKTERİ TÜRÜ HER SAAT BAŞI KENDİNİ İKİYE BÖLEREK ÇOĞALMAKTADIR. BU LABORATUVARDA 24 SAAT SONRA KAÇ BAKTERİ OLUŞUR?
+	
+/*
+	int bakteri=1;
+	int i;
+	
+	for(i=1;i<=24;i++)
+	{
+	bakteri=bakteri*2;
+	}
+	
+	printf("%d",bakteri);
+	
+*/	
+	
+//*********************************************************************************************************************************************
+	
+	//KLAVYEDEN 4 TANE TAM SAYI ALIP BUNLARIN TOPLAMINI BULAN PROGRAM
+/*
+	
+	int i;
+	int toplam=0;
+	int sayi;
+	
+	for(i=1;i<=4;i++)
+	{
+		printf("%d.Sayi:",i);
+		scanf("%d",&sayi);
+		toplam=toplam+sayi;
+	}
+	printf("Toplam Sonuc: %d",toplam);
+	
+*/	
+
+
+//***********************************************OTOPARK SORUSU FOR**********************************************************************
+
+
+/*
+	printf("OTOPARK SISTEMINE HOSGELDINIZ\n\n");
+	
+	int saat;
+	printf("Kac Saat Kaldin: ");
+	scanf("%d",&saat);
+	
+	if(saat>0 && saat<=3)
+	{
+		printf("3 TL ode");
+	}
+	
+	if(saat>3 && saat<=8)
+	{
+		printf("10 TL ode");
+	}
+	
+	if(saat>8)
+	{
+		printf("20 TL ode");
+	}
+
+*/
+//*********************************************************************************************************************************************
+
+/* //                                          OTOPARK SORUSU SWITCH CASE
+
+    int saat;
+    printf("Saati gir: ");
+    scanf("%d",&saat);
+
+    switch(saat)
+    {
+    case 0 ... 4:printf("10 TL"); break;
+    case 5 ... 8:printf("12 Tl"); break;
+    case 9 ... 12:printf("15 TL"); break;
+    default:printf("20 TL"); break;
+    }
+    
+    */
+    
+ //*********************************************************************************************************************************************
+   
+    
+    //     1+5+9+13+...+81 dizisinin toplamını bulan program
+  /*
+     
+    int i,toplam=0;
+    
+    for(i=1;i<=81;i+=4)
+    {
+    	toplam=toplam+i;
+    	
+	}
+	printf("Toplam: %d",toplam);
+    
+    */ 
+    
+//***********************************************************************************************************************
+ 
+    // EL BAGAJI VE NORMAL BAGAJ BORÇ HESAPLAMA PROGRAMI
+/*    
+    
+    int normal,el,normaltutar,eltutar,toplam;
+    
+    printf("El bagajiniz kac kg? ");
+    scanf("%d",&el);
+    
+    printf("Normal bagajiniz kac kg? ");
+    scanf("%d", &normal);
+    
+    if(el<8)
+    {
+    	eltutar=0;
+	}
+    else
+    {
+    	eltutar=(el-8)*5;
+	}
+    
+    if(normal<15)
+    {
+    	normaltutar=0;
+	}
+	else
+	{
+		normaltutar=(normal-15)*10;
+	}
+    
+    toplam= eltutar+normaltutar;
+    printf("Toplam borcunuz: %d TL'dir. ",toplam);
+    
+  */  
+ //*********************************************************************************************************************************************
+
+
+
+
+    
+return 0;
+}
+
+#include <stdio.h>
+#include <stdlib.h>
+
+// STRUCTERS
+//ÖNCE YUKARIYA DEĞİŞKENLERİ ATA CHAR CHAR İNT FLOAT DİYE SONRA AŞAĞIYA 
+// STRUCT ORNEK DENEME={..} SONRA PRİNTF(ADİ: %S,DENEME.İSİM)
+
+struct ornek
+{
+	char isim[10];
+	char soyisim[10];
+	char takim[11];
+	int yas;
+};
+
+
+int main() {
+	
+	struct ornek deneme={"Burak","Guler","Galatasaray",23};
+	
+	printf("Adiniz: %s\n",deneme.isim);
+	printf("Soyadiniz: %s\n",deneme.soyisim);
+	printf("Tuttugunuz takim: %s\n",deneme.takim);
+	printf("Yasiniz: %d",deneme.yas);
+	
+	
+	return 0;
+}
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+//***********************************POİNTER********************************************
+//                  ÖNCE Bİ DEĞİŞKEN ATIYORUZ NORMAL İNT CHAR GİBİ----- int sayi=10
+			//		SONRA İNT ATADIYSAK 								int *s = &sayi             	değer %d,sayi     adres %x,s
+								//									
+								
+int main() {
+	
+	int sayi=30;
+	
+	int *s = &sayi;
+	
+	//Sayıyı yazdırma
+	printf("Deger: %d\n",sayi);
+	
+	//Adresi yazdırma
+	printf("Adres: %x\n",s);
+	
+	
+	//Kelimeyi ekrana yazdırma
+	
+	char harf = 'b';
+	
+	char *h = &harf;
+	
+	printf("Kelime: %c\n", harf);
+		
+	// Kelimenin adresini yazdırma
+	printf("Adresi: %x",h);
+	
+	return 0;
+}
+#include <stdio.h>
+#include <stdlib.h>
+
+// ************************void************************
+
+/*
+	void listele() 
+	{
+		printf("Burak Guler\n");
+		printf("Mert Guler\n");
+		printf("Kubra Guler\n");
+		printf("Fatih Aydemir");
+	}
+	int main() {
+	
+	listele();
+	
+	return 0;
+}
+
+*/
+
+/*
+int main()
+{
+	int a,b;
+    float c,d;
+
+    printf("1. sayiyi gir: ");
+    scanf("%d",&a);
+    
+    printf("2. sayiyi gir: ");
+    scanf("%d",&b);
+    
+    printf("1. rakami gir: ");
+    scanf("%f",&c);
+    
+    printf("2. rakami gir: ");
+    scanf("%f",&d);
+    
+    printf("\n\n");
+    printf("ilk toplam: %d\n",a+b);
+    printf("ilk cikarma: %d\n",a-b);
+    printf("ikinci toplam %.1f\n",c+d);
+    printf("ikinci cikarma: %.1f",c-d);
+    return 0;
+}
+
+*/
+
+int main()
+{
+    int sayi1,sayi2,sonuc,cikarma;
+    float rakam1,rakam2,sonuc2,cikarma2;
+    
+    
+
+    printf("1. sayiyi gir: ");
+    scanf("%d",&sayi1);
+    
+    printf("2. sayiyi gir: ");
+    scanf("%d",&sayi2);
+    
+    printf("1. rakami gir: ");
+    scanf("%f",&rakam1);
+    
+    printf("2. rakami gir: ");
+    scanf("%f",&rakam2);
+    
+    sonuc=sayi1+sayi2;
+    cikarma=sayi1-sayi2;
+    sonuc2=rakam1+rakam2;
+    cikarma2=rakam1-rakam2;
+    
+    printf("\n\n");
+    printf("ilk toplam: %d\n",sonuc);
+    printf("ilk cikarma: %d\n",cikarma);
+    printf("ikinci toplam %.1f\n",sonuc2);
+    printf("ikinci cikarma: %.1f",cikarma2);
+    return 0;
+}
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	
+	
+// = eğer(ort>=50) { "geçti"}    değilse   { "kaldı" }
+//     =atama           ==sorgulamam (eşit mi)
+
+/*	int sayi1,sayi2,toplam;
+	
+	sayi1=30;
+	sayi2=22;
+	toplam=sayi1+sayi2;
+	
+	if(toplam>=50)
+	{
+		printf("Toplam Degeriniz: %d - 50'den buyuk",toplam);
+	}
+	else
+	{
+		printf("Toplam Degeriniz: %d - 50'den kucuk",toplam);
+		
+	}
+	return 0;
+	
+
+}*/
+//********************************************************************************************************************************************
+
+
+
+/*	printf("KTU Bilgi Sistemi");
+	printf("\n\n\n");
+	
+	int s1,s2,ort;
+	
+	printf("Sinav1 degerini girin: ");
+	scanf("%d",&s1);
+	
+	printf("Sinav2 degerini girin: ");
+	scanf("%d",&s2);
+	
+	ort=(s1+s2)/2;
+	
+	printf("Ortalama: %d\n",ort);
+	
+	
+	if(ort>=50)
+	{
+		printf("Dersten gectin gardesim");
+		
+	}
+	else
+	{
+	printf("Malesef kaldin kardes");
+	}
+	return 0;
+}*/
+//********************************************************************************************************************************************
+
+
+
+
+// *****************mod alma işlemi için % kullanacağız. ve için && kullanacağız. veya için || bunu kullanacağız.********************
+
+/*	int sayi;
+	printf("Sayiyi girin: ");
+	scanf("%d",&sayi);
+	
+	if(sayi%3==0 && sayi%5==0)          // (Burda demek istiyo ki eper sayı 3 bölümğnden kalan 0sa ve 5e bölümden kalan 0sa)
+	{
+		printf("Sayi 3 ve 5'e tam bolunur");
+	
+	}
+	else
+	{
+		printf("Sayi 3 ve 5'e tam bolunmez");
+	}
+	return 0;
+}*/
+//********************************************************************************************************************************************
+	
+	
+	
+	
+	
+//		(==eşit midir)    != eşit değil midir    mesela if sayı mod 2!=0 ikiye bölümünden kalan 0 değilse
+
+
+	//KLAVYEDEN GİRİLEN DERECEYE GÖRE SUYUN DURUMUNU YAZDIRAN PROGRAMI KODLAYIN
+	
+/*	printf("*******Suyun Durumu*********\n\n");
+	
+	int su;
+	printf("Suyun sicakligini giriniz: ");
+	scanf("%d",&su);
+	
+	if(su<=0)
+	{
+		printf("Buz halinde");
+	}
+	if(su>=100)
+	{
+		printf("Buhar halinde");
+
+	}
+	if(su>0 && su<100)
+	{
+		printf("Sivi halde");
+		}	
+	
+return 0;
+}*/
+//********************************************************************************************************************************************
+	
+	
+	
+	
+	
+	
+/*	int sevgi;
+	printf("En cok kimi seviyorsun? Mert'i mi Kubra'yi mi?\n");
+	scanf("%d",&sevgi);
+	
+	if(sevgi>=5)
+	{
+		printf("Evet dogru cevap Kubra");
+	}
+
+	else
+	{
+		printf("Yanlis cevap verdin. Dogru cevap Kubra'ydi'");
+	}
+	
+	return 0;
+	
+	
+}*/
+//********************************************************************************************************************************************
+
+
+	
+	
+/*	printf("KTU Bilgi Sistemi\n\n");
+	
+	
+	int s1,s2,s3,proje,ort;
+	printf("1. Sinav notunuzu girin: ");
+	scanf("%d",&s1);
+	
+	printf("2. Sinav notunuzu girin: ");
+	scanf("%d",&s2);
+	
+	printf("3. Sinav notunuzu girin: ");
+	scanf("%d",&s3);
+	
+	printf("Proje notunuzu girin: ");
+	scanf("%d",&proje);
+	
+	ort=(s1+s2+s3+proje)/4;
+	
+	if(ort<50)
+	{
+		printf("Not Ortalamanız: %d -FF",ort);
+	}
+	
+	if(ort>=50 && ort<60) 
+	{
+		printf("Not Ortalamanız: %d - DD",ort);
+	}
+	
+	if(ort>=60 && ort<70)
+	{
+		printf("Not Ortalamanız: %d - CC",ort);
+	}
+	
+	if(ort>=70 && ort<85)
+	{
+		printf("Not Ortalamanız: %d - BB",ort);
+	}
+	
+	if(ort>=85)
+	{
+		printf("Not Ortalamanız: %d - AA",ort);
+	}
+	
+	return 0;
+}*/
+//********************************************************************************************************************************************
+
+
+
+	
+	// **********************for kullanılırken (başlangıç; bitiş; artış miktarı) kullanılır************************************
+	// eğer bir bir artmasını istiyosak i++ kullan.
+	// ama iki iki artmasını istersek i+=2 ya da üç üç artmasını istersek i+=3 kullan
+	
+/*	
+	int i;
+	for(i=1;i<=10;i++)
+	{
+		printf("Merhaba Burak \n");
+		}	
+	
+		return 0;
+}*/
+	
+	/*
+	int a;
+	for(a=0;a<=20;a+=3)
+	{
+		printf("%d\n",a);
+	}
+	*/
+//********************************************************************************************************************************************
+
+
+	
+	
+	// *******mod alma % ile gösterilir***** 5'e bölümünden 0 kalan sayıları yazdır.
+	
+/*	int i;
+	for(i=1;i<=50;i++)
+	{
+		if(i%5==0)
+		{
+			printf("%d\n",i);
+		}
+	}
+	
+			return 0;
+}
+*/
+//********************************************************************************************************************************************
+	
+	
+	
+	
+// 3 basamaklı sayıyı basamaklarına ayıran program 
+
+/*
+		int sayi;
+		sayi=979;
+		int birler,onlar,yuzler;
+		
+		yuzler=sayi/100;
+		printf("%d\n",yuzler);
+		
+		onlar=sayi/100;
+		onlar=onlar-2;
+		printf("%d\n",onlar);
+		
+		birler=sayi%10;
+		printf("%d",birler);
+		
+		return 0;
+	}
+*/	
+//********************************************************************************************************************************************
+	
+	
+	
+	// ****************WHILE********************* mantığı for'a benzer
+	
+	
+/*	int i;
+	i=1;
+	while(i<=5)
+	{
+		printf("Merhaba kanka\n");           //burada bitirip çalıştırırsak sonsuza gider o yüzden bi son eklemeliyiz. örn: i++;
+		i++;
+	}
+	
+	return 0;
+}*/
+//********************************************************************************************************************************************
+
+
+
+
+
+// 1 ile 10 arasındaki sayıları listele.
+
+/*	int i;
+	i=1;
+	while(i<=10)
+	{
+		printf("%d\n",i);
+		i++;
+	}
+		return 0;
+}*/
+//********************************************************************************************************************************************
+
+
+
+
+
+// 1 ile 20 arasındaki çift sayıları ama 14 sayısını listelemeyen c komutu
+
+/*	int i;
+	i=1;
+	while(i<=20)
+	{
+	i++;
+		if(i%2==0 && i!=14)
+		{
+		printf("%d\n",i);
+		
+		}
+		
+	}
+	return 0;
+}
+*/
+//********************************************************************************************************
+
+
+
+// ***************************SWITCH / CASE*************  switch=değişken          case=durum
+// KLAVYEDEN GİRİLEN DEĞERLERE GÖRE AYLARI YAZSIN
+
+
+
+
+/*	int sayi;
+	printf("Lutfen Ay Numarasi Girin: ");
+	scanf("%d",&sayi);
+	
+	switch(sayi)
+	{
+		case 1:printf("Ocak"); break;
+		case 2:printf("Subat"); break;
+		case 3:printf("Mart"); break;
+		case 4:printf("Nisan"); break;
+		case 5:printf("Mayis"); break;
+		case 6:printf("Haziran"); break;
+		case 7:printf("Temmuz"); break;
+		case 8:printf("Agustos"); break;
+		case 9:printf("Eylul"); break;
+		case 10:printf("Ekim"); break;
+		case 11:printf("Kasim"); break;
+		case 12:printf("Aralik"); break;
+	}
+return 0;
+}*/
+
+
+//********************************************************************************************************
+
+/*	char ders;
+	printf("Ders Kodu: ");
+	scanf("%s",&ders);
+	
+	switch(ders)
+	{
+		case 't':printf("Turkce"); break;
+		case 's':printf("Sosyal"); break;
+		case 'm':printf("Matematik"); break;
+		default: printf("Hatali girdiniz"); break;
+		
+	}
+return 0;
+}
+*/
+
+//********************************************************************************************************************************************
+
+
+/*	int sayi1,secim;
+	float pi;
+	
+	sayi1=5;
+	pi=3.14;
+	
+	printf("KTU Islem\n\n");
+	printf("1- Karede alan ve cevre hesabi\n");
+	printf("2- Girilen Sayinin Kupu\n");
+	printf("3- Cemberde alan ve cevre\n");
+	printf("Islemnizi seciniz ");
+	scanf("%d", &secim);
+
+	switch(secim)
+	{
+		case 1: printf("Karenin alani: %d\n",(sayi1*sayi1));
+				printf("Karenin cevresi: %d\n",(sayi1*4)); break;
+		case 2: printf("Sonuc: %d",(sayi1*sayi1*sayi1)); break;
+		case 3: printf("Cemberin alani: %f\n",(sayi1*sayi1*pi)); break;
+				printf("Cemberin cevresi: %f",(2*pi*sayi1));
+	}
+return 0;
+}
+*/	
+
+
+//********************************************************************************************************************************************
